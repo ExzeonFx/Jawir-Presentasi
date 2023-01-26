@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Satir</title>
+</head>
+<body>
+   <center>
+   <h1>Diamond Gratis Free Fire</h1>
+   <p>Silahkan pilih jumlah Diamond</p>
+   </center>
+   <center>
+   <label>
+   <input type="checkbox" checked="checked" name="diamond"> 9999999+ Diamond
+   </label>
+      <label>
+   <input type="checkbox" name="diamond"> 1000+ Diamond
+   </label>
+      <label>
+   <input type="checkbox" name="diamond"> 50+ Diamond
+   </label>
+   </center>
+   <center>
+   <img alt="image" src="https://upload.wikimedia.org/wikipedia/en/c/c5/Logo_of_Garena_Free_Fire.png" width="200" height="100">
+   </center>
+   <center>
+      <label>
+         <input type="checkbox" name="diamond"> Akun FB
+         </label>
+         <br>
+         <label>
+            <input type="checkbox" name="diamond"> Akun Google
+            </label>
+         <br>
+         <br>
+   <form>
+   <label for="fname">UID:</label><br>
+   <input type="text" id="uid" name="fname"><br>
+   <label for="fname">Email:</label><br>
+   <input type="text" id="email" name="fname"><br>
+   <label for="lname">Password:</label><br>
+   <input type="text" id="pass" name="lname">
+   </form>
+   <br>
+   <button onclick="location.href='http://www.youtube.com'" type="button">
+         Login</button>
+   </center>
+   <center>
+      <br>
+      <br>
+      <h1>Average Counter</h1>
+      <form>
+         Bahasa Inggris: <input type="text" name="num1"><br>
+         Informatika: <input type="text" name="num2"><br>
+         Kimia: <input type="text" name="num3"><br>
+         Fisika: <input type="text" name="num4"><br>
+         Matematika: <input type="text" name="num5"><br>
+         Rata Rata: <input type="text" name="sum"><br>
+         <input type="button" value="hitung" onclick="calcSum()">
+     </form>
+      
+     <script>
+         function calcSum() {
+             let num1 = document.getElementsByName("num1")[0].value;
+             let num2 = document.getElementsByName("num2")[0].value;
+             let num3 = document.getElementsByName("num3")[0].value;
+             let num4 = document.getElementsByName("num4")[0].value;
+             let num5 = document.getElementsByName("num5")[0].value;
+             let summ = Number(num1) + Number(num2);
+             let sumu = Number(summ) + Number(num3);
+             let sumur = Number(sumu) + Number(num4);
+             let sumura = Number(sumur) + Number(num5);
+             let avg = Number(sumura) / 5;
+             document.getElementsByName("sum")[0].value = avg;
+         }
+     </script>
+
+     <h1>Kalkulator</h1>
+     <form>
+      Input 1: <input type="text" name="inp1"><br>
+      Input 2: <input type="text" name="inp2"><br>
+      Result: <input type="text" name="hasil"><br>
+      <input type="button" value="tambah" onclick="calcTbh()">
+      <input type="button" value="kurang" onclick="calcKrg()">
+      <input type="button" value="kali" onclick="calcPkl()">
+  </form>
+   
+  <script>
+      function calcTbh() {
+          let numb1 = document.getElementsByName("inp1")[0].value;
+          let numb2 = document.getElementsByName("inp2")[0].value;
+          let tbh = Number(numb1) + Number(numb2);
+          document.getElementsByName("hasil")[0].value = tbh;
+      }
+  </script>
+  <script>
+   function calcKrg() {
+       let numb1 = document.getElementsByName("inp1")[0].value;
+       let numb2 = document.getElementsByName("inp2")[0].value;
+       let krg = Number(numb1) - Number(numb2);
+       document.getElementsByName("hasil")[0].value = krg;
+   }
+</script>
+<script>
+   function calcPkl() {
+       let numb1 = document.getElementsByName("inp1")[0].value;
+       let numb2 = document.getElementsByName("inp2")[0].value;
+       let pkl = Number(numb1) * Number(numb2);
+       document.getElementsByName("hasil")[0].value = pkl;
+   }
+</script>
+
+<h4>My Website</h4>
+<button onclick="location.href='https://dl.stevents.my.id'" type="button">
+   Lessgooo</button>
+</center>
+   </center>
+   <center>
+   <footer>
+      <h6>&copy; StevenTs</h6>
+   </footer>
+   </center>
+</body>
+</html>
